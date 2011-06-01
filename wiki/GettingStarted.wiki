@@ -1,0 +1,18 @@
+#summary What you need to know to get started with the Weka Wrapper
+
+= Introduction =
+
+Weka, if you don't know already, is a hugely useful toolkit for machine learning and data mining applications. 
+
+My one gripe with Weka is that it can be a pain to program with. It is fine if you are using it via the GUI interface, but calling it from within Java code can be a nightmare. 
+
+The Weka Wrapper project aims to make it much easier to write readable, robust code around Weka. Have a look at the example below to see how much of a difference it can make. 
+
+= The Iris example =
+
+For starters, lets have a look at using Weka on the p
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
