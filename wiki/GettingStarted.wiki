@@ -106,10 +106,12 @@ We can also get an instance builder from the dataset, so it is easy to create tr
 {{{
 	Instance flower2 = dataset.getInstanceBuilder()
 		.setAttributeMissingResponse(BuildResponse.THROW_ERROR)
+		.setClassAttributeMissingResponse(BuildResponse.THROW_ERROR)
 		.setAttribute(IrisFeatures.sepallength, 4.3)
 		.setAttribute(IrisFeatures.sepalwidth, 1.9)
 		.setAttribute(IrisFeatures.petallength, 6.2)
 		.setAttribute(IrisFeatures.petalwidth, 3.1)
+		.setClassAttribute(IrisClass.IrisSetosa)
 		.build() ;
             
 	dataset.add(flower2) ;
