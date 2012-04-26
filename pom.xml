@@ -3,7 +3,7 @@
 
 	<groupId>org.dmilne</groupId>
 	<artifactId>weka-wrapper</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Weka Wrapper</name>
@@ -71,9 +71,9 @@
 		</plugins>
 	</build>
 	<scm>
-		<developerConnection>scm:svn:https://weka-wrapper.googlecode.com/svn/tags/weka-wrapper-0.0.2</developerConnection>
-		<connection>scm:svn:http://weka-wrapper.googlecode.com/svn/tags/weka-wrapper-0.0.2</connection>
-		<url>http://weka-wrapper.googlecode.com/svn/tags/weka-wrapper-0.0.2</url>
+		<developerConnection>scm:svn:https://weka-wrapper.googlecode.com/svn/</developerConnection>
+		<connection>scm:svn:http://weka-wrapper.googlecode.com/svn/</connection>
+		<url>http://weka-wrapper.googlecode.com/svn/trunk</url>
 	</scm>	
 	<parent>
 		<groupId>org.sonatype.oss</groupId>
